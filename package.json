@@ -1,0 +1,22 @@
+{
+  "name": "ex-js-unit-testing-snack",
+  "version": "1.0.0",
+  "description": "EX - Snack Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YleniaMighela/ex-js-unit-testing-snack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YleniaMighela/ex-js-unit-testing-snack/issues"
+  },
+  "homepage": "https://github.com/YleniaMighela/ex-js-unit-testing-snack#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
