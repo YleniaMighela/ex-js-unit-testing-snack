@@ -13,8 +13,11 @@ function getInitials(nomeCompleto) {
 
 // snack 02
 function createSlug(saluto) {
-    const minuscolo = saluto.toLowerCase().replaceAll(" ", "-")
-    return minuscolo
+    if (!saluto) {
+        throw new Error("Il titolo non può essere vuoto");
+    }
+    return saluto.toLowerCase().replaceAll(" ", "-")
+
 }
 
 

@@ -38,6 +38,8 @@ test("La funzione isPalindrome verifica se una stringa è un palindromo", () => 
 
 // snack 06
 test("La funzione createSlug lancia un errore se il titolo è vuoto o non valido", () => {
+    expect(() => createSlug("")).toThrow("Il titolo non può essere vuoto");
+
 
 })
 
