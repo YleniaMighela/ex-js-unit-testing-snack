@@ -1,4 +1,4 @@
-const { getInitials, createSlug } = require('./snack.js');
+const { getInitials, createSlug, average } = require('./snack.js');
 
 
 // snack 01
@@ -19,7 +19,7 @@ test("La funzione createSlug restituisce una stringa in lowercase, con tutti i c
 
 // snack 03
 test("La funzione average calcola la media aritmetica di un array di numeri", () => {
-
+    expect(average([10, 10])).toBe(10)
 })
 
 
