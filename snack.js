@@ -44,9 +44,15 @@ function isPalindrome(parolaPalindroma) {
 
 }
 
+// snack 07
+function findPostById(posts, id) {
+    return posts.find(post => post.id === id);
+}
+
 module.exports = {
     getInitials,
     createSlug,
     average,
     isPalindrome,
+    findPostById,
 };
