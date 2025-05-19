@@ -1,4 +1,4 @@
-const { getInitials, createSlug, average } = require('./snack.js');
+const { getInitials, createSlug, average, isPalindrome } = require('./snack.js');
 
 
 // snack 01
@@ -30,6 +30,9 @@ test("La funzione createSlug sostituisce gli spazi con -", () => {
 
 // snack 05
 test("La funzione isPalindrome verifica se una stringa è un palindromo", () => {
+    expect(isPalindrome("otto")).toBeTruthy();
+    expect(isPalindrome("casa ")).toBeFalsy();
+
 
 })
 

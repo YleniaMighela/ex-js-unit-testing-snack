@@ -31,8 +31,19 @@ function average(arrayNumeri) {
 
 }
 
+// snack 05
+function isPalindrome(parolaPalindroma) {
+    // split, divide la stringa in un array di parole
+    const parola = parolaPalindroma.trim().split("");
+    // reverse, inverte l'array
+    const parolaRevertata = parola.reverse().join("");
+    return parolaRevertata === parolaPalindroma.trim();
+
+}
+
 module.exports = {
     getInitials,
     createSlug,
     average,
+    isPalindrome,
 };
