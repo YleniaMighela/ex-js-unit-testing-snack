@@ -11,7 +11,14 @@ function getInitials(nomeCompleto) {
 }
 
 
+// snack 02
+function createSlug(saluto) {
+    const minuscolo = saluto.toLowerCase()
+    return minuscolo
+}
+
 
 module.exports = {
     getInitials,
+    createSlug,
 };
