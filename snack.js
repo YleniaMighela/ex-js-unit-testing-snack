@@ -13,7 +13,7 @@ function getInitials(nomeCompleto) {
 
 // snack 02
 function createSlug(saluto) {
-    const minuscolo = saluto.toLowerCase()
+    const minuscolo = saluto.toLowerCase().replaceAll(" ", "-")
     return minuscolo
 }
 

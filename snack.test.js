@@ -12,7 +12,7 @@ test("La funzione getInitials restituisce le iniziali di un nome completo", () =
 // snack 02
 test("La funzione createSlug restituisce una stringa in lowercase, con tutti i caratteri in minuscolo", () => {
     const saluto = "Buongiorno Mondo"
-    expect(createSlug(saluto)).toBe("buongiorno mondo")
+    expect(createSlug(saluto)).toBe("buongiorno-mondo")
 
 })
 
@@ -25,7 +25,7 @@ test("La funzione average calcola la media aritmetica di un array di numeri", ()
 
 // snack 04
 test("La funzione createSlug sostituisce gli spazi con -", () => {
-
+    expect(createSlug("Ciao a tutti")).toBe("ciao-a-tutti")
 })
 
 // snack 05
